@@ -41,7 +41,7 @@ private:
     }
 
     // Tabulation --> T.C = O(N) and S.C = O(N)
-    int solveUtil(int n, vector<int>& arr, vector<int>& dp) {
+    int solveTabu(int n, vector<int>& arr, vector<int>& dp) {
         dp[0]= arr[0];
         
         for(int i=1 ;i<n; i++){
